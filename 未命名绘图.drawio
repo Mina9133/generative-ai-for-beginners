@@ -1,47 +1,172 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="第 1 页" id="5w2Q8t6eeln7TMBQam5S">
-    <mxGraphModel>
+    <mxGraphModel dx="2576" dy="941" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="2" value="" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="81" y="162" width="28" height="28" as="geometry" />
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-10" target="Yz4hPsvAPPULHG-QtSq_-13">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="" style="ellipse;fillColor=strokeColor;" vertex="1" parent="1">
-          <mxGeometry x="88" y="8" width="14" height="14" as="geometry" />
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-10" value="宣告並產生正確答案 (&lt;code&gt;answer&lt;/code&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="IsPositive" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="54" y="72" width="82" height="40" as="geometry" />
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-13" target="Yz4hPsvAPPULHG-QtSq_-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="False" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="19" y="263" width="53" height="40" as="geometry" />
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-13" value="&lt;meta charset=&quot;utf-8&quot;&gt;宣告猜的數字 (&lt;code&gt;guess&lt;/code&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="130" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="True" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="1">
-          <mxGeometry x="122" y="263" width="47" height="40" as="geometry" />
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-14" target="Yz4hPsvAPPULHG-QtSq_-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7" value="" style="curved=1;startArrow=none;;exitX=0.52;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="3" target="4">
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-14" value="&lt;meta charset=&quot;utf-8&quot;&gt;宣告猜的數字最大值 (&lt;code&gt;maxRange&lt;/code&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-15" target="Yz4hPsvAPPULHG-QtSq_-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-15" value="&lt;meta charset=&quot;utf-8&quot;&gt;宣告猜的數字最小值 (&lt;code&gt;minRange&lt;/code&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-16" target="Yz4hPsvAPPULHG-QtSq_-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-16" value="&lt;meta charset=&quot;utf-8&quot;&gt;宣告回合數 (&lt;code&gt;count&lt;/code&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-17" target="Yz4hPsvAPPULHG-QtSq_-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-17" value="&lt;meta charset=&quot;utf-8&quot;&gt;宣告最大猜測次數 (&lt;code&gt;maxGuesses&lt;/code&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-18" target="Yz4hPsvAPPULHG-QtSq_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-18" value="&lt;meta charset=&quot;utf-8&quot;&gt;印出正確答案" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="584.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-19" target="Yz4hPsvAPPULHG-QtSq_-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-19" target="Yz4hPsvAPPULHG-QtSq_-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-19" value="&lt;p style=&quot;line-height: 160%;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="247.5" y="700" width="265" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-20" value="&lt;span style=&quot;text-align: left;&quot;&gt;猜的數字不等於正確答案 (&lt;/span&gt;&lt;code style=&quot;text-align: left;&quot;&gt;guess !== answer&lt;/code&gt;&lt;span style=&quot;text-align: left;&quot;&gt;) 且 回合數小於最大猜測次數 (&lt;/span&gt;&lt;code style=&quot;text-align: left;&quot;&gt;count &amp;lt; maxGuesses&lt;/code&gt;&lt;span style=&quot;text-align: left;&quot;&gt;)？&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="311" y="743" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-21" target="Yz4hPsvAPPULHG-QtSq_-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-21" value="&lt;meta charset=&quot;utf-8&quot;&gt;產生猜的數字 (&lt;code&gt;guess&lt;/code&gt;)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-23" target="Yz4hPsvAPPULHG-QtSq_-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-23" value="&lt;meta charset=&quot;utf-8&quot;&gt;回合數 + 1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-25" target="Yz4hPsvAPPULHG-QtSq_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-25" target="Yz4hPsvAPPULHG-QtSq_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-25" value="&lt;p style=&quot;line-height: 160%;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="860" width="265" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-26" value="猜的數字大於正確答案 (&lt;code&gt;guess &amp;gt; answer&lt;/code&gt;)？" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="890" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-27" target="Yz4hPsvAPPULHG-QtSq_-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-27" value="&lt;meta charset=&quot;utf-8&quot;&gt;印出「太大了！」" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-28" target="Yz4hPsvAPPULHG-QtSq_-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-28" value="&lt;p style=&quot;line-height: 160%;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="687.5" y="1050" width="265" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-29" value="猜的數字小於正確答案 (&lt;code&gt;guess &amp;lt; answer&lt;/code&gt;)？" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="1090" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-31">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
+            <mxPoint x="380" y="840" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8" value="" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.51;entryY=0;" edge="1" parent="1" source="4" target="2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-31" value="印出「太小了！」" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1090" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9" value="if n &amp;lt; 0" style="curved=1;startArrow=none;;exitX=0.01;exitY=1;entryX=0.49;entryY=-0.01;" edge="1" parent="1" source="2" target="5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="45" y="226" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-32" target="Yz4hPsvAPPULHG-QtSq_-34">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="10" value="if n &gt;= 0" style="curved=1;startArrow=none;;exitX=1.01;exitY=1;entryX=0.5;entryY=-0.01;" edge="1" parent="1" source="2" target="6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="145" y="226" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-32" value="&lt;p style=&quot;line-height: 160%;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="940" width="265" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-33" value="猜的數字等於正確答案 (&lt;code&gt;guess === answer&lt;/code&gt;)？" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="980" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-34" target="Yz4hPsvAPPULHG-QtSq_-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;startFill=1;startArrow=blockThin;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-34" target="Yz4hPsvAPPULHG-QtSq_-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-92" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-34" target="Yz4hPsvAPPULHG-QtSq_-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-34" value="印出「恭喜答對了！」" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=block;startFill=1;endArrow=none;" edge="1" parent="1" source="Yz4hPsvAPPULHG-QtSq_-36" target="Yz4hPsvAPPULHG-QtSq_-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-36" value="&amp;nbsp;結束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-62" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-67" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="145" y="730" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-68" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="880" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-69" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1000" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-71" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="627.5" y="1080" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-89" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="1220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-90" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="311" y="1350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-91" value="猜的數字不等於正確答案 (&lt;code&gt;guess !== answer&lt;/code&gt;)？" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-94" value="否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-103" value="是" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-104" value="是/否" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1360" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Yz4hPsvAPPULHG-QtSq_-105" value="&lt;h2 class=&quot;unit-top-title&quot; style=&quot;box-sizing: border-box; font-size: 1.25rem; line-height: 1.3em; font-weight: normal; margin: 0px; color: rgb(48, 56, 64); overflow: hidden; max-height: 2.6em; font-family: &amp;quot;Noto Sans TC&amp;quot;, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;A9: 設計演算法：提升猜對數字的效率&lt;/h2&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-460" y="560" width="370" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
